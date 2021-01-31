@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class MageCharacter : MonoBehaviour
 {
     [Header("Movement")]
-    float moveX;
-    float moveY;
+
+    Vector2 movement;
     public float movementSpeed; 
 
     [Header("UI Reference")]
@@ -17,6 +17,10 @@ public class MageCharacter : MonoBehaviour
     [HideInInspector]
     public bool canMove = false; 
 
+    private bool moving = false;
+
+    private Animator animator;
+
 
 
     // Start is called before the first frame update
@@ -24,6 +28,7 @@ public class MageCharacter : MonoBehaviour
     private void Awake() 
     {
         manaBar = manaBarGO.GetComponent<Image>();
+        animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -49,20 +54,46 @@ public class MageCharacter : MonoBehaviour
         {
             Destroy(other.gameObject);
             manaBar.fillAmount += 0.1f;
+            AudioManager.instance.ManaGet(true);
         }
     }
 
     private void GetPlayerInput()
     {
-        moveX = Input.GetAxisRaw("Horizontal");
-        moveY = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+        animator.SetFloat("moveX",movement.x);
+        animator.SetFloat("moveY",movement.y);
+        animator.SetFloat("speed", movement.sqrMagnitude);
+
+        // Debug.Log("Vector Movement: " + movement + " " + "\n" +
+        //             "Speed " + movement.sqrMagnitude);
+        
+        if(movement != new Vector2(0,0))
+        {
+            if(!moving)
+            {
+                AudioManager.instance.Footstep(true);
+            }
+            moving = true;
+            animator.SetFloat("moveLateX",movement.x);
+            animator.SetFloat("moveLateY",movement.y);
+        }
+        else
+        {
+            if(moving)
+            {
+                AudioManager.instance.Footstep(false);
+                moving = false;
+            }
+        }
     }
 
     private void MovePlayer()
     {
         if(canMove)
         {
-            Vector3 directionVector = new Vector3(moveX,moveY, 0);
+            Vector3 directionVector = new Vector3(movement.x,movement.y, 0);
             transform.Translate(directionVector.normalized * Time.deltaTime * movementSpeed);
         }
     }

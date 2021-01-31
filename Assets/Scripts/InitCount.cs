@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InitCount : MonoBehaviour
 {
+    public TextMeshProUGUI initialTimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,10 @@ public class InitCount : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SetText(string text)
+    {
+        initialTimer.text = text;
     }
 }

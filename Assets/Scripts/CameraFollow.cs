@@ -12,7 +12,7 @@ public class CameraFollow : MonoBehaviour
     public bool startFollow = false;
 
     [Header("Zoom")]
-    public float zoomOffset = -5;
+    public float zoomOffset = -10;
 
     Camera cameraGame;
     // Start is called before the first frame update

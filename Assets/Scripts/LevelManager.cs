@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
     IEnumerator StartGameCountDown()
     {
         yield return new WaitForSeconds(3);
-        lightFollow.SetActive(false);
+        //lightFollow.SetActive(false);
         start = true;
         mage.canMove = true;
         cameraFollow.startFollow = true;

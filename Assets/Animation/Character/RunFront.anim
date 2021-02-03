@@ -20,7 +20,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -7.49, y: 11.21, z: 0}
+        value: {x: 0.07, y: 0.07, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -29,7 +29,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.083333336
-        value: {x: -6.58, y: 11.12, z: 0}
+        value: {x: 0.77, y: -0.07, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -38,7 +38,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.16666667
-        value: {x: -7.49, y: 11.12, z: 0}
+        value: {x: 0.07, y: -0.07, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -47,25 +47,25 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.25
-        value: {x: -6.67, y: 11.66, z: 0}
-        inSlope: {x: 9.299998, y: 0, z: 0}
-        outSlope: {x: 9.299998, y: 0, z: 0}
+        value: {x: 0.7, y: 0.49, z: 0}
+        inSlope: {x: 6.7200007, y: 0, z: 0}
+        outSlope: {x: 6.7200007, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.33333334
-        value: {x: -5.94, y: 11.21, z: 0}
-        inSlope: {x: 0, y: -3.780001, z: 0}
-        outSlope: {x: 0, y: -3.780001, z: 0}
+        value: {x: 1.19, y: 0.21, z: 0}
+        inSlope: {x: 0, y: -3.7800002, z: 0}
+        outSlope: {x: 0, y: -3.7800002, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.41666666
-        value: {x: -7.12, y: 11.03, z: 0}
+        value: {x: 0.49, y: -0.14, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -74,16 +74,16 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: -6.58, y: 11.03, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        value: {x: 0.7, y: -0.07, z: 0}
+        inSlope: {x: 2.1, y: 1.6800002, z: 0}
+        outSlope: {x: 2.1, y: 1.6800002, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5833333
-        value: {x: -6.58, y: 11.76, z: 0}
+        value: {x: 0.84, y: 0.63, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -93,7 +93,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Point Light 2D
+    path: LuzVisual
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves:
@@ -126,7 +126,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2303167742
+      path: 799070374
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -174,7 +174,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -7.49
+        value: 0.07
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -183,7 +183,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.083333336
-        value: -6.58
+        value: 0.77
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -192,7 +192,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: -7.49
+        value: 0.07
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -201,16 +201,16 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: -6.67
-        inSlope: 9.299998
-        outSlope: 9.299998
+        value: 0.7
+        inSlope: 6.7200007
+        outSlope: 6.7200007
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: -5.94
+        value: 1.19
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -219,7 +219,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.41666666
-        value: -7.12
+        value: 0.49
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -228,16 +228,16 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -6.58
-        inSlope: 0
-        outSlope: 0
+        value: 0.7
+        inSlope: 2.1
+        outSlope: 2.1
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5833333
-        value: -6.58
+        value: 0.84
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -248,7 +248,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Point Light 2D
+    path: LuzVisual
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -256,7 +256,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 11.21
+        value: 0.07
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -265,7 +265,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.083333336
-        value: 11.12
+        value: -0.07
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -274,7 +274,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 11.12
+        value: -0.07
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -283,7 +283,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: 11.66
+        value: 0.49
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -292,16 +292,16 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.33333334
-        value: 11.21
-        inSlope: -3.780001
-        outSlope: -3.780001
+        value: 0.21
+        inSlope: -3.7800002
+        outSlope: -3.7800002
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.41666666
-        value: 11.03
+        value: -0.14
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -310,16 +310,16 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: 11.03
-        inSlope: 0
-        outSlope: 0
+        value: -0.07
+        inSlope: 1.6800002
+        outSlope: 1.6800002
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5833333
-        value: 11.76
+        value: 0.63
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -330,7 +330,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Point Light 2D
+    path: LuzVisual
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -412,7 +412,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Point Light 2D
+    path: LuzVisual
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []

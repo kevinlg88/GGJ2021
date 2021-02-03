@@ -4258,7 +4258,7 @@ MonoBehaviour:
   speedFollow: 30
   normalSpeed: 5
   startFollow: 0
-  zoomOffset: -5
+  zoomOffset: -10
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -7210,6 +7210,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1007449747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007449748}
+  - component: {fileID: 1007449749}
+  m_Layer: 0
+  m_Name: LuzCajadoSoft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007449748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007449747}
+  m_LocalRotation: {x: -0, y: -0, z: -0.5493564, w: 0.8355882}
+  m_LocalPosition: {x: -7.4, y: 11.300006, z: 0}
+  m_LocalScale: {x: 10.17497, y: 10.17497, z: 10.17497}
+  m_Children: []
+  m_Father: {fileID: 1132577502}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007449749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007449747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.759434, g: 0.7931976, b: 1, a: 1}
+  m_Intensity: 3
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0.022035712
+  m_PointLightOuterRadius: 1.4462609
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1013557553
 GameObject:
   m_ObjectHideFlags: 0
@@ -7226,7 +7298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1013557554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7242,8 +7314,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.36320752, g: 0.41618878, b: 1, a: 1}
+  m_Intensity: 0.78
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -7474,7 +7546,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a644cd273304f2e45bc3c62337983f4f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8483,6 +8555,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1132577501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1132577502}
+  m_Layer: 0
+  m_Name: LuzVisual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1132577502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132577501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1292599479}
+  - {fileID: 1007449748}
+  m_Father: {fileID: 1596542996}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1149108086
 GameObject:
   m_ObjectHideFlags: 0
@@ -9392,7 +9496,7 @@ GameObject:
   - component: {fileID: 1292599479}
   - component: {fileID: 1292599480}
   m_Layer: 0
-  m_Name: Point Light 2D
+  m_Name: LuzCajado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9405,11 +9509,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292599478}
-  m_LocalRotation: {x: -0, y: -0, z: -0.6306461, w: 0.77607054}
-  m_LocalPosition: {x: -7.4, y: 11.3, z: 0}
-  m_LocalScale: {x: 10.174969, y: 10.174969, z: 10.17497}
+  m_LocalRotation: {x: -0, y: -0, z: -0.49086973, w: 0.871233}
+  m_LocalPosition: {x: -7.4, y: 11.300006, z: 0}
+  m_LocalScale: {x: 10.17497, y: 10.17497, z: 10.17497}
   m_Children: []
-  m_Father: {fileID: 1596542996}
+  m_Father: {fileID: 1132577502}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1292599480
@@ -9427,8 +9531,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.5518868, g: 0.61514974, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.759434, g: 0.7931976, b: 1, a: 1}
+  m_Intensity: 4.68
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -9439,8 +9543,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.58367276
-  m_PointLightOuterRadius: 2.0110536
+  m_PointLightInnerRadius: 0.04635243
+  m_PointLightOuterRadius: 0.15231048
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -10226,7 +10330,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.3977394, g: 0.50096935, b: 0.7735849, a: 1}
+  m_Color: {r: 0.7216981, g: 0.7999705, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
@@ -10248,10 +10352,14 @@ MonoBehaviour:
   m_ShapeLightFalloffSize: 0.5
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
+  - {x: -0.80727744, y: -0.75315684, z: 0}
+  - {x: 0.13278289, y: -1.1029835, z: 0}
+  - {x: 0.8828058, y: -0.82218194, z: 0}
+  - {x: 0.9978942, y: 0.04807658, z: 0}
+  - {x: 0.97982407, y: 0.5736273, z: 0}
+  - {x: 0.25829768, y: 1.1427782, z: 0}
+  - {x: -1.1217021, y: 0.9397953, z: 0}
+  - {x: -1.5988853, y: 0.01046013, z: 0}
 --- !u!1 &1406335501
 GameObject:
   m_ObjectHideFlags: 0
@@ -11565,7 +11673,7 @@ Transform:
   m_LocalPosition: {x: -13.24, y: 22.73, z: 0}
   m_LocalScale: {x: 0.09828039, y: 0.09828039, z: 0.09828039}
   m_Children:
-  - {fileID: 1292599479}
+  - {fileID: 1132577502}
   - {fileID: 1403049582}
   m_Father: {fileID: 0}
   m_RootOrder: 3

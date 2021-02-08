@@ -71,7 +71,7 @@ public class MageCharacter : MonoBehaviour
         
         if(movement != new Vector2(0,0))
         {
-            if(!moving)
+            if(!moving && canMove)
             {
                 AudioManager.instance.Footstep(true);
             }
@@ -81,7 +81,7 @@ public class MageCharacter : MonoBehaviour
         }
         else
         {
-            if(moving)
+            if(moving || !canMove)
             {
                 AudioManager.instance.Footstep(false);
                 moving = false;

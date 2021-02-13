@@ -7,20 +7,18 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     public GameObject prologuePopup;
+    public GameObject creditsPopup;
     Image fade;
 
     //Control Variables
     bool prologue = false;
+
+    bool creditsShow = false;
     float fadeAlpha = 1;
 
     private void Awake() 
     {
         fade = prologuePopup.transform.Find("fade").GetComponent<Image>();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame
@@ -41,6 +39,15 @@ public class Menu : MonoBehaviour
             prologue = true;
             prologuePopup.SetActive(true);
             StartCoroutine(ShowPrologue());
+        }
+
+        else if(Input.GetKeyDown(KeyCode.LeftControl) || 
+                Input.GetKeyDown(KeyCode.LeftCommand) || 
+                Input.GetKeyDown(KeyCode.RightControl) || 
+                Input.GetKeyDown(KeyCode.RightCommand))
+        {
+            creditsShow = !creditsShow;
+            creditsPopup.SetActive(creditsShow);
         }
     }
 

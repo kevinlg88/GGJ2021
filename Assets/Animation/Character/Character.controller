@@ -120,7 +120,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 98c427be160b18449912cc4c1d2a6bef, type: 2}
-    m_Threshold: 0.6122449
+    m_Threshold: 0.6031746
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -128,7 +128,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: cc8a1dab10f4e8b428bef31dc71fb00b, type: 2}
-    m_Threshold: 0.6530613
+    m_Threshold: 0.63492066
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -136,15 +136,31 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 10d38b5a836b1704988af9044ff72760, type: 2}
-    m_Threshold: 0.6938776
+    m_Threshold: 0.6666667
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: moveX
     m_Mirror: 0
   - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 98c427be160b18449912cc4c1d2a6bef, type: 2}
+    m_Threshold: 0.6984127
+    m_Position: {x: 1, y: -1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: moveX
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 1ae81236e05cd764d8e6b38e8f7ff1c7, type: 2}
+    m_Threshold: 0.73015875
+    m_Position: {x: -1, y: 1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: moveX
+    m_Mirror: 0
+  - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f58b1e4fca36abd49b5d39f3cbc54c81, type: 2}
-    m_Threshold: 0.7346939
+    m_Threshold: 0.7619048
     m_Position: {x: 0, y: 0.34}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -152,7 +168,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 58466ea612a56104ba6a8acf21782e6c, type: 2}
-    m_Threshold: 0.7755102
+    m_Threshold: 0.7936508
     m_Position: {x: 0, y: -0.34}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -160,7 +176,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f37cebcd6b326dc45a796c5c64330b71, type: 2}
-    m_Threshold: 0.81632656
+    m_Threshold: 0.82539684
     m_Position: {x: -0.3, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -216,7 +232,7 @@ AnimatorController:
     m_Controller: {fileID: 0}
   - m_Name: moveLateY
     m_Type: 1
-    m_DefaultFloat: 0
+    m_DefaultFloat: -1
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
